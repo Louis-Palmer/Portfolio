@@ -4,25 +4,59 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'split-polarity',
 		color: '#5e95e3',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [
-			{ to: 'https://github.com/', label: 'GitHub' },
-			{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'Reporsitory' },
-			{ to: 'https://svelte.dev/', label: 'Svelte' },
-			{ to: 'https://www.shadcn-svelte.com/', label: 'Shadcn Svelte' }
+			{ to: 'https://store.steampowered.com/app/2655020/Split_Polarity_The_Science_Puzzle_Arcade_Game/', label: 'Steam' },
 		],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio With Svelte',
+		logo: Assets.SplitPolarity,
+		name: 'Split Polarity',
 		period: {
-			from: new Date()
+			from: new Date(2022,10), to: new Date(2023,11)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Game'
+	},
+	{
+		slug: 'FluidSim',
+		color: '#0808f1',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
+		],
+		logo: Assets.FluidSim,
+		name: 'Fluid Particle Simulation',
+		period: {
+			from: new Date(2024,9)
+		},
+		skills: getSkills('Cpp', 'OpenGL'),
+		type: 'Graphics Simulation',
+		screenshots: [{label: "Ball Pit Physics", src: "static/logos/FluidSimScreenshot.png"}]
+	},
+	{
+		slug: 'Wayfarers',
+		color: '#88f1c4',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
+		],
+		logo: Assets.Wayfarers,
+		name: 'Wayfarers Guild',
+		period: {
+			from: new Date(2024,9)
+		},
+		skills: getSkills('C#'),
+		type: 'Game',
 	},
 	{
 		slug: 'slick-portfolio-svelte',

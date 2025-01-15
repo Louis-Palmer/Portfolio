@@ -5,28 +5,28 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Computing for Games BSc(Hons)',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'United Kingdom',
+		logo: Assets.FalmouthIcon,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Falmouth University',
+		period: { from: new Date(2022, 8), to: new Date(2025, 4) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['C#', 'C++', 'Python', 'R', 'html', 'css', 'JavaScript',"Source Control","Data Anlysis"]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Games Design - Level 3',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'United Kingdom',
+		logo: Assets.NWSLC,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'North Warwickshire and South Leicestershire College',
+		period: { from: new Date(2020, 0), to: new Date(2022,0)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: [/*'Unity', 'Unreal', "Game Design"*/]
 	}
 ];
 

@@ -69,7 +69,23 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+
+
+	//Custom Assets
+	//Languages
+	R: asset("RLogoIcon.png"),
+	
+	//logos
+	PerchangIcon: asset("PerchangLogoIcon.png"),
+	FalmouthIcon: asset("FalmouthLogoIcon.png"),
+	SplitPolarity: asset("SplitPolarityLogo.png"),
+	NWSLC: asset("NWSLC.png"),
+	Wayfarers: asset("Wayfarers Guild.png"),
+
+	//Images
+	FluidSim: asset("FluidSimScreenshot.png")
+
 };
 
 export default Assets;
