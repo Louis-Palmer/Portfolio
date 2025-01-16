@@ -87,7 +87,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2023,10), to: new Date(2022,2)
 		},
-		skills: getSkills('c#',"py"),
+		skills: getSkills('CSharp',"py"),
 		type: 'Machine Learning',
 		screenshots:[
 			{
