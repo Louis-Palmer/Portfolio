@@ -73,8 +73,9 @@ const Assets = {
 
 
 	//Custom Assets
-	//Languages
+	//Skills
 	R: asset("RLogoIcon.png"),
+	OpenGl: asset("OpenglLogoIcon.png"),
 	
 	//logos
 	PerchangIcon: asset("PerchangLogoIcon.png"),
@@ -82,6 +83,7 @@ const Assets = {
 	SplitPolarity: asset("SplitPolarityLogo.png"),
 	NWSLC: asset("NWSLC.png"),
 	Wayfarers: asset("Wayfarers Guild.png"),
+	Attensys: asset("attensysIoLogoIcon.jpg"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png")
