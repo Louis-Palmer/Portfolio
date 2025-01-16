@@ -8,9 +8,9 @@ const items: Array<Project> = [
 		slug: 'split-polarity',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'As a team, I created a game inspired by a toy called the Perplexus, which featured two game modes: two-player versus mode and single-player mode. The game involves strategy and luck by adding power-ups. The game supports controllers, mouse, and keyboards. This project was a significant milestone in my first year, as it was published on Steam by a student-led publishing company that fully funded the release to be their introduction game. The game won the "Best 1st Year Game" award at the end of the year. This project gave me insight into teamwork, game design, polishing, and publishing.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Developed an award-winning first-year game.',
 		links: [
 			{ to: 'https://store.steampowered.com/app/2655020/Split_Polarity_The_Science_Puzzle_Arcade_Game/', label: 'Steam' },
 		],
@@ -40,9 +40,9 @@ const items: Array<Project> = [
 		slug: 'FluidSim',
 		color: '#0808f1',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'For my dissertation and graphics module, I focused on particle-based fluid simulation. I developed a simplified fluid simulation in the graphics module, which required significant self-directed learning. My dissertation expands on this by implementing Smoothed Particle Hydrodynamics (SPH) to simulate buoyancy and analyse its accuracy with varying particle resolutions. I conducted a statistical analysis using two-way ANOVA and Tukey testing, using tools like G-power and R for data analysis. This project has improved my knowledge of Code quality assurance and optimisation.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Created a particle-based fluid simulation across two modules focusing on optimisation, quality assurance, profiling, and debugging.',
 		links: [
 			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
 		],
@@ -58,9 +58,9 @@ const items: Array<Project> = [
 		slug: 'Attensys-Data-Analysis',
 		color: 'grey',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'I collaborated with Attensys.io to research optimal locations for releasing their new hospital bed technology. I identified medical industry hotspots using public and private datasets and created heatmaps displaying hospital bed quantities across countries. I compiled the findings into a static website, later converted them into a PDF, and shared them with the leads at Attensys.io. This project honed my data analysis, visualisation, and professional reporting skills.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'I compiled data to identify hotspots for Attensys.io to release their new technology.',
 		links: [
 			{ to: 'https://github.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis', label: 'Github' },
 			{ to: "https://attensys.io/", label: "Attensys.io"}
@@ -77,9 +77,9 @@ const items: Array<Project> = [
 		slug: 'Machine-Learning',
 		color: 'grey',
 		description:
-			'Reinforced machine learning',
+			"I created reinforcement learning agents in Unity to explore ideal strategies for the Iterated Prisoner's Dilemma. This project involved designing the environment, configuring a rewards system, setting up the AI agents, Training the AI, and experimenting with the AI agents playing against themselves and the Tit-for-Tat Strategy. This project challenged my problem-solving and logical thinking skills but was very valuable. I documented and analysed the results to increase my understanding of AI and potential errors.",
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			"Implemented Reinforced Machine Learning Agents to solve Iterated Prisoner's Dilemma.",
 		links: [
 			{ to: 'https://github.com/Louis-Palmer/Uni-Comp213-MachineLearning', label: 'Github' },
 		],
@@ -114,9 +114,9 @@ const items: Array<Project> = [
 		slug: 'Wayfarers',
 		color: '#88f1c4',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Wayfarfes Guild is a networked cooperative game in which two players control a ship being chased by eldritch monsters. This project involves challenging mechanics like networking, moving platforms, and pathfinding algorithms. I focused on implementing the moving platforms and networking aspects, which proved difficult but rewarding. Despite the challenges, significant progress has been made, further enhancing my networking and gameplay mechanics skills.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Two-player networked game involving challenging development mechanics.',
 		links: [
 		
 		],
@@ -132,9 +132,9 @@ const items: Array<Project> = [
 		slug: 'mathematics-module',
 		color: 'orange',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'I completed four math-intensive worksheets, each focusing on a different aspect of problem-solving involving math and programming. The third worksheet was my favourite, as it involved developing graphics rendering from scratch. I successfully went on my own and re-invented Normal Shading, which was one of my proudest moments in the whole course. This project was a very gratifying experience. The first worksheet had me use Bezier curves to make a car follow a track, while the second required applying Suvat equations to calculate the angle and power needed to fire a bullet from a tank to hit a target. The fourth worksheet focused on security, where I identified, classified, and fixed bugs and security risks in a provided game. This collection of tasks greatly enhanced my understanding of math in programming and its practical applications.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Maths-intensive worksheets where I re-invented Normal Shading.',
 		links: [
 			{ to: 'https://github.com/Louis-Palmer/Uni-Comp201-Maths-Module', label: 'Github' },
 		
@@ -173,9 +173,9 @@ const items: Array<Project> = [
 		slug: 'Daffy',
 		color: 'yellow',
 		description:
-			'fsd',
+			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Devloped the navigation programm to help create "Daffy" the daffodil picking robot.',
 		links: [
 			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
 		
