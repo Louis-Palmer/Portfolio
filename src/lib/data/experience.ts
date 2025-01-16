@@ -10,7 +10,7 @@ const items: Array<Experience> = [
 	{
 		slug: 'Programming Intern',
 		company: 'Perchang Games',
-		description: 'Creating awesome tools for developers.',
+		description: 'During my internship with Perchang, I gained invaluable experience working in a professional game development environment. While adhering to an NDA, I contributed by creating new mechanics for their game Perchang and developing tools and libraries to streamline their programming workflow, including gizmos, object hierarchy search tools, and reusable functions. This internship taught me professional standards, source control,  team meetings and effective communication across multiple disciplines. This internship gave me a solid foundation for the software development process in a professional environment.',
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Home',
@@ -20,7 +20,7 @@ const items: Array<Experience> = [
 		color: 'orange',
 		links: [{to: "https://perchang.com/index.html", label: "Visit Site", newTab:true}],
 		logo: Assets.PerchangIcon,
-		shortDescription: 'Creating awesome tools for developers.',
+		shortDescription: 'Created mechanics for a game, tools and libraries for development',
 		screenshots:[
 			{
 				label: "Perchang title",
