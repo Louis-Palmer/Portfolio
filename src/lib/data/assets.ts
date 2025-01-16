@@ -84,10 +84,13 @@ const Assets = {
 	NWSLC: asset("NWSLC.png"),
 	Wayfarers: asset("Wayfarers Guild.png"),
 	Attensys: asset("attensysIoLogoIcon.jpg"),
+	Unity: asset("UnityLogo.png"),
+	Unreal: asset("UnrealLogo.png"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png"),
 	MLIPD: asset("MachineLearningIcon.png"),
+	WS3: asset("WS3Screenshot.png"),
 
 };
 

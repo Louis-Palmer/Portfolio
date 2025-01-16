@@ -15,7 +15,7 @@ const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date(2023, 3), to: new Date(2023, 3) },
-		skills: getSkills('CSharp'),
+		skills: getSkills('CSharp', "unity"),
 		name: 'Programming Internship',
 		color: 'orange',
 		links: [{to: "https://perchang.com/index.html", label: "Visit Site", newTab:true}],
