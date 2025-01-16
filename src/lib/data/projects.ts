@@ -63,6 +63,7 @@ const items: Array<Project> = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [
 			{ to: 'https://github.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis', label: 'Github' },
+			{ to: "https://attensys.io/", label: "Attensys.io"}
 		],
 		logo: Assets.Attensys,
 		name: 'Attensys.io Data Analysis',
@@ -85,7 +86,7 @@ const items: Array<Project> = [
 		logo: Assets.MLIPD,
 		name: 'Machine Learning in the Iterated Prisoners Dilemma',
 		period: {
-			from: new Date(2023,10), to: new Date(2022,2)
+			from: new Date(2023,10), to: new Date(2024,2)
 		},
 		skills: getSkills('CSharp',"py","unity"),
 		type: 'Machine Learning',
@@ -122,7 +123,7 @@ const items: Array<Project> = [
 		logo: Assets.Wayfarers,
 		name: 'Wayfarers Guild',
 		period: {
-			from: new Date(2024,9)
+			from: new Date(2024,8)
 		},
 		skills: getSkills('CSharp',"unity"),
 		type: 'Game',
@@ -165,6 +166,47 @@ const items: Array<Project> = [
 			{
 				label: "WS1 Image One",
 				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comp201-Maths-Module/refs/heads/WS1/WS1_ImageOne.png"
+			},
+		]
+	},
+	{
+		slug: 'Daffy',
+		color: 'yellow',
+		description:
+			'fsd',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [
+			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
+		
+		],
+		logo: Assets.Daffy,
+		name: 'Agriculture Robotics',
+		period: {
+			from: new Date(2022,9), to: new Date(2022,9)
+		},
+		skills: getSkills("py"),
+		type: 'Robotics',
+		screenshots: [
+			{
+				label: "Hackathon Event Introductions and Importance",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9457.jpg?itok=LO_1aWwn"
+			},
+			{
+				label: "Hackathon Event attendees",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0502.jpg?itok=lA2yx6Yw"
+			},
+			{
+				label: "Robot Navigation Team",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0634.jpg?itok=jJHvKKcT"
+			},
+			{
+				label: "Daffy the Robot",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0743.jpg?itok=LY1EX-Mg"
+			},
+			{
+				label: "George Eustice - Former Secretary of State for Environment, Food and Rural Affairs",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9662.jpg?itok=0p58irbr"
 			},
 		]
 	},
