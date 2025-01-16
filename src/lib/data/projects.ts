@@ -70,7 +70,44 @@ const items: Array<Project> = [
 			from: new Date(2022,11), to: new Date(2023,2)
 		},
 		skills: getSkills('py',"html","css"),
-		type: 'Graphics Simulation',
+		type: 'Data Analysis Report',
+	},
+	{
+		slug: 'Machine Learning',
+		color: 'grey',
+		description:
+			'Reinforced machine learning',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Uni-Comp213-MachineLearning', label: 'Github' },
+		],
+		logo: Assets.MLIPD,
+		name: 'Machine Learning in the Iterated Prisoners Dilemma',
+		period: {
+			from: new Date(2023,10), to: new Date(2022,2)
+		},
+		skills: getSkills('c#',"py"),
+		type: 'Machine Learning',
+		screenshots:[
+			{
+				label: "Data Experiment One",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentOne.png"
+			},
+			{
+				label: "Data Experiment Two",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
+			},
+			{
+				label: "Data Experiment Three",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
+			},
+			// {
+			// 	label: "Reward Distribution",
+			// 	src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/PrisonerDilemmaRewards.png"
+			// },
+			
+		]
 	},
 	{
 		slug: 'Wayfarers',

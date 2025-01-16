@@ -86,7 +86,8 @@ const Assets = {
 	Attensys: asset("attensysIoLogoIcon.jpg"),
 
 	//Images
-	FluidSim: asset("FluidSimScreenshot.png")
+	FluidSim: asset("FluidSimScreenshot.png"),
+	MLIPD: asset("MachineLearningIcon.png"),
 
 };
 
