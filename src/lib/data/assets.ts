@@ -86,6 +86,7 @@ const Assets = {
 	Attensys: asset("attensysIoLogoIcon.jpg"),
 	Unity: asset("UnityLogo.png"),
 	Unreal: asset("UnrealLogo.png"),
+	Daffy: asset("Daffy.png"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png"),
