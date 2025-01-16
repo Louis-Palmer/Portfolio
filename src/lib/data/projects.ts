@@ -1,3 +1,4 @@
+import { assets } from '$app/paths';
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from './types';
@@ -19,7 +20,21 @@ const items: Array<Project> = [
 			from: new Date(2022,10), to: new Date(2023,11)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Game'
+		type: 'Game',
+		screenshots: [
+			{
+				label: "Split Polarity Versus Mode",
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_082a639891aab8b1b192eae0e3719c615064d119.600x338.jpg?t=1704801089",
+			},
+			{
+				label: "Split Polarity Single Mode",
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_ae2219fdf1d76bdbfc13d95f5e2d3f78b6f59850.600x338.jpg?t=1704801089"
+			},
+			{
+				label: "Split Polarity Title Screen",
+				src: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2655020/extras/Screenshot_5_small.png?t=1704801089"
+			},
+		]
 	},
 	{
 		slug: 'FluidSim',
