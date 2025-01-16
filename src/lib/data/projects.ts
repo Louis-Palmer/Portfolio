@@ -19,7 +19,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2022,10), to: new Date(2023,11)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
+		skills: getSkills("CSharp"),
 		type: 'Game',
 		screenshots: [
 			{
@@ -51,9 +51,26 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2024,9)
 		},
-		skills: getSkills('Cpp', 'OpenGL'),
+		skills: getSkills('C++', 'opengl'),
 		type: 'Graphics Simulation',
-		screenshots: [{label: "Ball Pit Physics", src: "static/logos/FluidSimScreenshot.png"}]
+	},
+	{
+		slug: 'Attensys Data Analysis',
+		color: 'grey',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis', label: 'Github' },
+		],
+		logo: Assets.Attensys,
+		name: 'Attensys.io Data Analysis',
+		period: {
+			from: new Date(2022,11), to: new Date(2023,2)
+		},
+		skills: getSkills('py',"html","css"),
+		type: 'Graphics Simulation',
 	},
 	{
 		slug: 'Wayfarers',
@@ -63,14 +80,14 @@ const items: Array<Project> = [
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [
-			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
+		
 		],
 		logo: Assets.Wayfarers,
 		name: 'Wayfarers Guild',
 		period: {
 			from: new Date(2024,9)
 		},
-		skills: getSkills('C#'),
+		skills: getSkills('CSharp'),
 		type: 'Game',
 	},
 	{
