@@ -16,7 +16,7 @@ const hero: {
 		{ label: 'GitHub', href: 'https://github.com/Louis-Palmer', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/louis-palmer-447a1524b/', icon: 'i-carbon-logo-linkedin' },
 		// { label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'Louispalmer01@outlook.com', icon: 'i-carbon-at' }
+		{ label: 'Email', href: 'mailto:contact@louispalmer.dev', icon: 'i-carbon-at' }
 	]
 };
 
