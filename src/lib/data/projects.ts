@@ -163,7 +163,7 @@ const items: Array<Project> = [
 			{ to: 'https://github.com/Louis-Palmer/Uni-Comp213-MachineLearning', label: 'Github' },
 		],
 		logo: Assets.MLIPD,
-		name: 'Machine Learning in the Iterated Prisoners Dilemma',
+		name: 'Artificial Intelligence and Machine Learning in the Iterated Prisoners Dilemma',
 		period: {
 			from: new Date(2023,10), to: new Date(2024,2)
 		},
