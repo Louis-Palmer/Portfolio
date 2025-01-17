@@ -87,6 +87,7 @@ const Assets = {
 	Unity: asset("UnityLogo.png"),
 	Unreal: asset("UnrealLogo.png"),
 	Daffy: asset("Daffy.png"),
+	SlotMachine: asset("SlotMachineIcon.png"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png"),
