@@ -33,7 +33,7 @@ const items: Array<Education> = [
 				label: "Group Expo Day",
 				src: ""
 			},
-		]
+		],
 	},
 	{
 		degree: 'Games Design - Level 3',
@@ -42,7 +42,7 @@ const items: Array<Education> = [
 		logo: Assets.NWSLC,
 		name: '',
 		organization: 'North Warwickshire and South Leicestershire College',
-		period: { from: new Date(2020, 0), to: new Date(2022,0)},
+		period: { from: new Date(2020, 5), to: new Date(2022,5)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: [/*'Unity', 'Unreal', "Game Design"*/]
