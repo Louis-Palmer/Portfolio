@@ -84,7 +84,7 @@ const items: Array<Project> = [
 		description:
 			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
 		shortDescription:
-			'Devloped the navigation programm to help create "Daffy" the daffodil picking robot.',
+			'Devloped the navigation program to help create "Daffy" the daffodil picking robot.',
 		links: [
 			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
 		
