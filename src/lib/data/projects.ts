@@ -1,4 +1,5 @@
 import { assets } from '$app/paths';
+import { Label } from 'bits-ui';
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from './types';
@@ -224,6 +225,30 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('C++', 'opengl',"R","py"),
 		type: 'Graphics Simulation',
+	},
+	{
+		slug: 'Slot_Machine',
+		color: 'red',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Slot-Website', label: 'Github' },
+		],
+		logo: Assets.SlotMachine,
+		name: 'Simple Slot Machine',
+		period: {
+			from: new Date(2025,0)
+		},
+		skills: getSkills("js","html","css"),
+		type: 'Website',
+		screenshots:[
+			{
+				label: "Basic bare bones implementation of slot machine",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Slot-Website/refs/heads/main/Images/Slot_Machine_Basic.png"
+			}
+		]
 	},
 	// {
 	// 	slug: 'slick-portfolio-svelte',
