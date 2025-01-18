@@ -14,7 +14,7 @@ const items: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date(2023, 3), to: new Date(2023, 3) },
+		period: { from: new Date(2023, 3,1), to: new Date(2023, 3,15) },
 		skills: getSkills('CSharp', "unity"),
 		name: 'Gameplay Mechanics and Tools Engineering',
 		color: 'orange',
