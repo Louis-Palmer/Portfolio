@@ -226,30 +226,34 @@ const items: Array<Project> = [
 		skills: getSkills('C++', 'opengl',"R","py"),
 		type: 'Graphics Simulation',
 	},
-	{
-		slug: 'Slot_Machine',
-		color: 'red',
-		description:
-			'This project was created with the primary goal of learning JavaScript and understanding its integration with HTML. It features a basic Slot Machine setup where users can place bets (not real money). While the current visualisation and functionality are minimal, I plan to develop this project further to better understand JavaScript and continuously improve its design and interactivity.',
-		shortDescription:
-			'Learning fundamentals of JavaScript through the development of a simple Slot Machine.',
-		links: [
-			{ to: 'https://github.com/Louis-Palmer/Slot-Website', label: 'Github' },
-		],
-		logo: Assets.SlotMachine,
-		name: 'Simple Slot Machine',
-		period: {
-			from: new Date(2025,0,17)
-		},
-		skills: getSkills("js","html","css"),
-		type: 'Web Application',
-		screenshots:[
-			{
-				label: "Basic bare bones implementation of slot machine",
-				src: "https://raw.githubusercontent.com/Louis-Palmer/Slot-Website/refs/heads/main/Images/Slot_Machine_Basic.png"
-			}
-		]
-	},
+	// {
+	// 	slug: 'Slot_Machine',
+	// 	color: 'red',
+	// 	description:
+	// 		'This project was created with the primary goal of learning JavaScript and understanding its integration with HTML. It features a basic Slot Machine setup where users can place bets (not real money). While the current visualisation and functionality are minimal, I plan to develop this project further to better understand JavaScript and continuously improve its design and interactivity.',
+	// 	shortDescription:
+	// 		'Learning fundamentals of JavaScript through the development of a simple Slot Machine.',
+	// 	links: [
+	// 		{ to: 'https://github.com/Louis-Palmer/Slot-Website', label: 'Github' },
+	// 	],
+	// 	logo: Assets.SlotMachine,
+	// 	name: 'Simple Slot Machine',
+	// 	period: {
+	// 		from: new Date(2025,0,17)
+	// 	},
+	// 	skills: getSkills("js","html","css"),
+	// 	type: 'Web Application',
+	// 	screenshots:[
+	// 		{
+	// 			label: "Prototype Version One",
+	// 			src: "https://raw.githubusercontent.com/Louis-Palmer/Slot-Website/refs/heads/main/Images/Slot_Machine_Basic.png"
+	// 		}
+	// 	]
+	// },
+
+
+
+	
 	// {
 	// 	slug: 'slick-portfolio-svelte',
 	// 	color: '#ff3e00',
