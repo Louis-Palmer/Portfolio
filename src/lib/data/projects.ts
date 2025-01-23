@@ -47,81 +47,6 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Attensys-Data-Analysis',
-		color: 'grey',
-		description:
-			'I collaborated with Attensys.io to research optimal locations for releasing their new hospital bed technology. I identified medical industry hotspots using public and private datasets and created heatmaps displaying hospital bed quantities across countries. I compiled the findings into a static website, later converted them into a PDF, and shared them with the leads at Attensys.io. This project honed my data analysis, visualisation, and professional reporting skills.',
-		shortDescription:
-			'I compiled data to identify hotspots for Attensys.io to release their new technology.',
-		links: [
-			{ to: 'https://github.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis', label: 'Github' },
-			{ to: "https://attensys.io/", label: "Attensys.io"}
-		],
-		logo: Assets.Attensys,
-		name: 'Attensys.io Data Analysis',
-		period: {
-			from: new Date(2022,11), to: new Date(2023,2)
-		},
-		skills: getSkills('py',"html","css"),
-		type: 'Data Analysis Report',
-		screenshots:[
-			{
-				label: "Hospital Bed Per Person Heatmap",
-				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Images/2.Heatmaps/Heatmap%20Total%20Beds%20Global%20Red.png"
-			},
-			{
-				label: "World Health Care Index for Innovation",
-				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Images/3.Others/World%20Index%20of%20Healthcare%20Innovation.png"
-			},
-			{
-				label: "Report",
-				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Comp170_Screenshot_One.png"
-			},
-		]
-	},
-	{
-		slug: 'Agriculture-Robotics',
-		color: 'yellow',
-		description:
-			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
-		shortDescription:
-			'Devloped the navigation program to help create "Daffy" the daffodil picking robot.',
-		links: [
-			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
-		
-		],
-		logo: Assets.Daffy,
-		name: 'Agriculture Robotics',
-		period: {
-			from: new Date(2022,9), to: new Date(2022,9)
-		},
-		skills: getSkills("py"),
-		type: 'Robotics',
-		screenshots: [
-			{
-				label: "Hackathon Event Introductions and Importance",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9457.jpg?itok=LO_1aWwn"
-			},
-			{
-				label: "Hackathon Event attendees",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0502.jpg?itok=lA2yx6Yw"
-			},
-			{
-				label: "Robot Navigation Team",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0634.jpg?itok=jJHvKKcT"
-			},
-			{
-				label: "Daffy the Robot",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0743.jpg?itok=LY1EX-Mg"
-			},
-			{
-				label: "George Eustice - Former Secretary of State for Environment, Food and Rural Affairs",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9662.jpg?itok=0p58irbr"
-			},
-		]
-		
-	},
-	{
 		slug: 'Split-Polarity',
 		color: '#5e95e3',
 		description:
@@ -152,6 +77,48 @@ const items: Array<Project> = [
 				src: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2655020/extras/Screenshot_5_small.png?t=1704801089"
 			},
 		]
+	},
+	{
+		slug: 'Agriculture-Robotics',
+		color: 'yellow',
+		description:
+			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
+		shortDescription:
+			'Devloped the navigation program to help create "Daffy" the daffodil picking robot.',
+		links: [
+			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
+		
+		],
+		logo: Assets.Daffy,
+		name: 'Agriculture Robotics',
+		period: {
+			from: new Date(2022,9,1), to: new Date(2022,9,3)
+		},
+		skills: getSkills("py"),
+		type: 'Robotics',
+		screenshots: [
+			{
+				label: "Hackathon Event Introductions and Importance",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9457.jpg?itok=LO_1aWwn"
+			},
+			{
+				label: "Hackathon Event attendees",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0502.jpg?itok=lA2yx6Yw"
+			},
+			{
+				label: "Robot Navigation Team",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0634.jpg?itok=jJHvKKcT"
+			},
+			{
+				label: "Daffy the Robot",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0743.jpg?itok=LY1EX-Mg"
+			},
+			{
+				label: "George Eustice - Former Secretary of State for Environment, Food and Rural Affairs",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9662.jpg?itok=0p58irbr"
+			},
+		]
+		
 	},
 	{
 		slug: 'Machine-Learning',

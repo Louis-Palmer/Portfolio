@@ -13,7 +13,7 @@ const items: Array<Experience> = [
 		description: 'During my internship with Perchang, I gained invaluable experience working in a professional game development environment. While adhering to an NDA, I contributed by creating new mechanics for their game Perchang and developing tools and libraries to streamline their programming workflow, including gizmos, object hierarchy search tools, and reusable functions. This internship taught me professional standards, source control,  team meetings and effective communication across multiple disciplines. This internship gave me a solid foundation for the software development process in a professional environment.',
 		contract: ContractType.Internship,
 		type: 'Software Development',
-		location: 'Home',
+		location: 'Remote',
 		period: { from: new Date(2023, 3,1), to: new Date(2023, 3,15) },
 		skills: getSkills('CSharp', "unity"),
 		name: 'Gameplay Mechanics and Tools Engineering',
@@ -40,6 +40,39 @@ const items: Array<Experience> = [
 			},
 		]
 	},
+	{
+		slug: 'Attensys-Data-Analysis',
+		company: 'Attensys.io',
+		description: 'I collaborated with Attensys.io to research optimal locations for releasing their new hospital bed technology. I identified medical industry hotspots using public and private datasets and created heatmaps displaying hospital bed quantities across countries. I compiled the findings into a static website, later converted them into a PDF, and shared them with the leads at Attensys.io. This project honed my data analysis, visualisation, and professional reporting skills.',
+		contract: ContractType.Freelance,
+		type: 'Data Analysis',
+		location: 'Remote',
+		period: { from: new Date(2022, 11,), to: new Date(2023, 2) },
+		skills: getSkills('py',"html","css"),
+		name: 'Attensys.io Data Analysis',
+		color: 'grey',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis', label: 'Github' },
+			{ to: "https://attensys.io/", label: "Attensys.io"}
+		],
+		logo: Assets.Attensys,
+		shortDescription: 'I compiled data to identify hotspots for Attensys.io to release their new technology.',
+		screenshots:[
+			{
+				label: "Hospital Bed Per Person Heatmap",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Images/2.Heatmaps/Heatmap%20Total%20Beds%20Global%20Red.png"
+			},
+			{
+				label: "World Health Care Index for Innovation",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Images/3.Others/World%20Index%20of%20Healthcare%20Innovation.png"
+			},
+			{
+				label: "Report",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comis-Comp170-Data-Analysis/refs/heads/main/Comp170_Screenshot_One.png"
+			},
+		]
+	},
+
 	// {
 	// 	slug: 'software-freelance',
 	// 	company: 'Self-employed',
