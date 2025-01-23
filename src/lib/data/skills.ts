@@ -85,43 +85,44 @@ const items = [
 		slug: 'py',
 		color: 'blue',
 		description:
-			'Python was my first programming language; I now primarily use it for small daily tasks and quality-of-life improvements, such as creating a Discord bot or collecting live web data. Additionally, I use Python for data analysis to clean, generate, manipulate, and visualise data efficiently.',
+			'6+ Years - Python was my first programming language; I now primarily use it for small daily tasks and quality-of-life improvements, such as creating a Discord bot or collecting live web data. Additionally, I use Python for data analysis to clean, generate, manipulate, and visualise data efficiently.',
 		logo: Assets.Python,
 		name: 'Python',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'R',
-		color: 'blue',
-		description:
-			'R is a language I learned while working on my dissertation, specifically for data analysis and visualisation. I found it to be intuitive and powerful, particularly for conducting statistical tests like ANOVA and Tukey, making it my go-to language for data-driven projects.',
-		logo: Assets.R,
-		name: 'R',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'C++',
-		color: 'blue',
-		description:
-			"I was introduced to C++ while working with Unreal Engine, and it has since become my primary programming language. I'm currently using it in my dissertation to develop a particle-based fluid simulation. While pointers and memory management were initially challenging, I've grown comfortable with them and learned how to use pointers efficiently.",
-		logo: Assets.Cpp,
-		name: 'C++',
 		category: 'pro-lang'
 	}),
 	defineSkill({
 		slug: 'CSharp',
 		color: 'purple',
 		description:
-			"C# has been my go-to language for developing games and projects using the Unity Engine. It's the language I have the most experience with and spent the most time learning. ",
+			"5+ Years - C# has been my go-to language for developing games and projects using the Unity Engine. It's the language I have the most experience with and spent the most time learning. ",
 		logo: Assets.Csharp,
 		name: 'C#',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'C++',
+		color: 'blue',
+		description:
+			"2+ Years - I was introduced to C++ while working with Unreal Engine, and it has since become my primary programming language. I'm currently using it in my dissertation to develop a particle-based fluid simulation. While pointers and memory management were initially challenging, I've grown comfortable with them and learned how to use pointers efficiently.",
+		logo: Assets.Cpp,
+		name: 'C++',
+		category: 'pro-lang'
+	}),
+	
+	defineSkill({
+		slug: 'R',
+		color: 'blue',
+		description:
+			'6+ Months - R is a language I learned while working on my dissertation, specifically for data analysis and visualisation. I found it to be intuitive and powerful, particularly for conducting statistical tests like ANOVA and Tukey, making it my go-to language for data-driven projects.',
+		logo: Assets.R,
+		name: 'R',
 		category: 'pro-lang'
 	}),
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
 		description:
-			'I learned HTML and CSS basics at university but not JavaScript, so I created a slot machine project to learn the fundamentals of JavaScript. This involved using simple variables to manage betting amounts, lines and the ability to reset funds when running out. I am refining the Slot Machine project and plan to expand my JavaScript portfolio with more projects once this one is completed and fully polished.',
+			'1+ Month - I learned HTML and CSS basics at university but not JavaScript, so I created a slot machine project to learn the fundamentals of JavaScript. This involved using simple variables to manage betting amounts, lines and the ability to reset funds when running out. I am refining the Slot Machine project and plan to expand my JavaScript portfolio with more projects once this one is completed and fully polished.',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -130,7 +131,7 @@ const items = [
 		slug: 'css',
 		color: 'blue',
 		description:
-		"I first used CSS alongside HTML when I began programming to create my website. Since then, I've used this language in projects like presenting a data analysis report for Attensys.io. I found CSS to be a very satisfying language, allowing you to see instant visual changes without much knowledge of the language.",
+		"2+ Years - I first used CSS alongside HTML when I began programming to create my website. Since then, I've used this language in projects like presenting a data analysis report for Attensys.io. I found CSS to be a very satisfying language, allowing you to see instant visual changes without much knowledge of the language.",
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -139,7 +140,7 @@ const items = [
 		slug: 'html',
 		color: 'orange',
 		description:
-		"I first used CSS alongside HTML when I began programming to create my website. Since then, I've used this language in projects like presenting a data analysis report for Attensys.io. I found HTML to be confusing to me at first, but eventually, I understood its purpose as a core part of a website.",
+		"2+ Years - I first used CSS alongside HTML when I began programming to create my website. Since then, I've used this language in projects like presenting a data analysis report for Attensys.io. I found HTML to be confusing to me at first, but eventually, I understood its purpose as a core part of a website.",
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -148,7 +149,7 @@ const items = [
 		slug: 'opengl',
 		color: 'blue',
 		description:
-		'I used the OpenGL API to render and simulate a particle-based fluid simulation. Learning the graphics pipeline was challenging, as I had to solve 3D puzzles of patterns and shapes, which only made me enjoy it more. I enjoyed working with OpenGL so much that I plan to expand my knowledge by learning Vulkan and DirectX.',
+		'6+ Months - I used the OpenGL API to render and simulate a particle-based fluid simulation. Learning the graphics pipeline was challenging, as I had to solve 3D puzzles of patterns and shapes, which only made me enjoy it more. I enjoyed working with OpenGL so much that I plan to expand my knowledge by learning Vulkan and DirectX.',
 		logo: Assets.OpenGl,
 		name: 'OpenGL',
 		category: 'library'
@@ -157,7 +158,7 @@ const items = [
 		slug: 'unity',
 		color: 'grey',
 		description:
-		"The Unity game engine was my first introduction to game development. Learning its syntax, such as the instantiate function, became a core memory from my early programming journey. Since then, I've used Unity to develop multiple games and projects, both individually and as part of a team.",
+		"6+ Years - The Unity game engine was my first introduction to game development. Learning its syntax, such as the instantiate function, became a core memory from my early programming journey. Since then, I've used Unity to develop multiple games and projects, both individually and as part of a team.",
 		logo: Assets.Unity,
 		name: 'Unity',
 		category: 'framework'
@@ -166,7 +167,7 @@ const items = [
 		slug: 'unreal',
 		color: 'grey',
 		description:
-		"As the industry standard for game development, Unreal Engine was a tool I was eager to learn. I've found it to be both intuitive and incredibly powerful. I've enjoyed using Unreal for various projects, including creating an AI boss fight for one of my modules.",
+		"5+ Years - As the industry standard for game development, Unreal Engine was a tool I was eager to learn. I've found it to be both intuitive and incredibly powerful. I've enjoyed using Unreal for various projects, including creating an AI boss fight for one of my modules.",
 		logo: Assets.Unreal,
 		name: 'Unreal',
 		category: 'framework'
