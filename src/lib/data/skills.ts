@@ -118,15 +118,15 @@ const items = [
 		name: 'R',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'js',
-		color: 'yellow',
-		description:
-			'1+ Month - I learned HTML and CSS basics at university but not JavaScript, so I created a slot machine project to learn the fundamentals of JavaScript. This involved using simple variables to manage betting amounts, lines and the ability to reset funds when running out. I am refining the Slot Machine project and plan to expand my JavaScript portfolio with more projects once this one is completed and fully polished.',
-		logo: Assets.JavaScript,
-		name: 'Javascript',
-		category: 'pro-lang'
-	}),
+	// defineSkill({
+	// 	slug: 'js',
+	// 	color: 'yellow',
+	// 	description:
+	// 		'1+ Month - I learned HTML and CSS basics at university but not JavaScript, so I created a slot machine project to learn the fundamentals of JavaScript. This involved using simple variables to manage betting amounts, lines and the ability to reset funds when running out. I am refining the Slot Machine project and plan to expand my JavaScript portfolio with more projects once this one is completed and fully polished.',
+	// 	logo: Assets.JavaScript,
+	// 	name: 'Javascript',
+	// 	category: 'pro-lang'
+	// }),
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
