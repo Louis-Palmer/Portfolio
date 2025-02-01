@@ -6,7 +6,7 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Computing for Games BSc(Hons)',
+		degree: ' BSc(Hons) Computing for Games',
 		description: 'My journey at Falmouth University has been incredible, transforming my technical skills and personal growth into who I am today. From the beginning of my first year, I met knowledgeable lecturers and like-minded peers who showed the possibilities that programming could create. In my first year, I built a foundation in programming fundamentals, created Split Polarity—winner of the "Best 1st Year Game Award"—and participated in events like the Techstars Startup Weekend. The second year deepened my skills with C++, now my primary language, and a mathematics module that boosted my problem-solving abilities. I also worked with Attensys.io on data analysis. I am tackling advanced projects like fluid simulation and networking in my current year. My time at Falmouth has been invaluable, inspiring my passion for programming and excitement for the future.',
 		location: 'United Kingdom',
 		logo: Assets.FalmouthIcon,
@@ -36,7 +36,7 @@ const items: Array<Education> = [
 		],
 	},
 	{
-		degree: 'Games Design - Level 3',
+		degree: 'UAL Extended Diploma in Creative Media Production and Technology ',
 		description: 'I completed Two years at college that introdcued me to softwar creation, game devlopment fundamentals, and pre-planning documentation. This got me setup for teamworking enviroments and set a strong foundation for my future in programming. It also allowed me to connect with industry professionals and learn directly from their expertise, inspiring my passion for programming.',
 		location: 'United Kingdom',
 		logo: Assets.NWSLC,
