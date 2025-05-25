@@ -159,18 +159,19 @@ const items: Array<Project> = [
 	},
 	{
 		slug: 'Wayfarers-Guild',
-		color: '#88f1c4',
+		color: '#2f9baf',
 		description:
-			'Wayfarfes Guild is a networked cooperative game in which two players control a ship being chased by eldritch monsters. This project involves challenging mechanics like networking, moving platforms, and pathfinding algorithms. I focused on implementing the moving platforms and networking aspects, which proved difficult but rewarding. Despite the challenges, significant progress has been made, further enhancing my networking and gameplay mechanics skills.',
+			'Wayfarfes Guild is a networked cooperative game in which two players control a ship being chased by eldritch monsters. This project involves challenging mechanics like networking, moving platforms, and pathfinding algorithms. I focused on implementing the moving platforms and networking aspects, which proved difficult but rewarding. Despite the challenges, the game turned out well, with impressive features implemented alongside a fully networked server-authoritative architecture. This enhanced my networking, physics and gameplay logical thinking skills.',
 		shortDescription:
 			'Two-player networked game involving challenging programming mechanics.',
 		links: [
+			{ to: 'https://edwardhayden.itch.io/wayfarers-guild', label: 'Itch.io' },{to: 'https://www.youtube.com/watch?v=OM4_PgLdpMo&ab_channel=monocatari', label: 'YouTube Trailer' }
 		
 		],
-		logo: Assets.Wayfarers,
+		logo: Assets.WayfarersBanner,
 		name: 'Wayfarers Guild',
 		period: {
-			from: new Date(2024,8)
+			from: new Date(2024,8), to: new Date(2025,5)
 		},
 		skills: getSkills('CSharp',"unity"),
 		type: 'Game',

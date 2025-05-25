@@ -83,6 +83,7 @@ const Assets = {
 	SplitPolarity: asset("SplitPolarityLogo.png"),
 	NWSLC: asset("NWSLC.png"),
 	Wayfarers: asset("Wayfarers Guild.png"),
+	WayfarersBanner: asset("WayfarersBanner.png"),
 	Attensys: asset("attensysIoLogoIcon.jpg"),
 	Unity: asset("UnityLogo.png"),
 	Unreal: asset("UnrealLogo.png"),
