@@ -1,5 +1,8 @@
 # Portfolio-Site
-
+This portfolio is a Template from [Here](https://github.com/RiadhAdrani/slick-portfolio-svelte-5).  
+To run a localhost preview enter commands below into console.   
+`npm install`  
+`npm run dev` 
 ## Commit Message Format
 [Commit Messge Format inspiration from here.](https://gist.github.com/develar/273e2eb938792cf5f86451fbac2bcd51)  
 Structure  
