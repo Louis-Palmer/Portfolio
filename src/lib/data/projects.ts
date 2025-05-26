@@ -175,6 +175,29 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('CSharp',"unity"),
 		type: 'Game',
+		screenshots: [
+			{
+				label: "Two Player Steering Ship",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/WayfarersGuild/TwoPlayerGameScreenShot.png"
+			},
+			{
+				label: "Ship Flying Through Terrain",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/WayfarersGuild/ShipSteeringThroughTerrain.png"
+			},
+			{
+				label: "Server Authoritative Client Input",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/WayfarersGuild/Server_authorative_ClientInput.png"
+			},
+			{
+				label: "GetSets networked",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/WayfarersGuild/NetworkedVariables.png"
+			},
+			{
+				label: "Ship Collision Math short",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/WayfarersGuild/ReflectionCollisionMath.png"
+			},
+			
+		]
 	},
 	{
 		slug: 'Fluid-Simulation',
