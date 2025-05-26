@@ -44,6 +44,20 @@ const items: Array<Project> = [
 				label: "WS1 Image One",
 				src: "https://raw.githubusercontent.com/Louis-Palmer/Uni-Comp201-Maths-Module/refs/heads/WS1/WS1_ImageOne.png"
 			},
+			{
+				label: "WS3 Normal Calculation",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/Comp201MathsModule/MathsModuleNormalCalc.png"
+			},
+			{
+				label: "WS3 Dot Product Shading",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/Comp201MathsModule/MathsModuleComp201Shading.png"
+			},
+			{
+				label: "WS2 Task 3 Suvat Equation",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Portfolio/refs/heads/master/screenshots/MyScreenshots/Comp201MathsModule/WS2Task3Equation.png"
+			},
+
+
 		]
 	},
 	{
