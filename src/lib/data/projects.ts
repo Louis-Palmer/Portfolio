@@ -61,113 +61,40 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Split-Polarity',
-		color: '#5e95e3',
+		slug: 'Fluid-Simulation',
+		color: '#0808f1',
 		description:
-			'As a team, I created a game inspired by a toy called the Perplexus, which featured two game modes: two-player versus mode and single-player mode. The game involves strategy and luck by adding power-ups. The game supports controllers, mouse, and keyboards. This project was a significant milestone in my first year, as it was published on Steam by a student-led publishing company that fully funded the release to be their introduction game. The game won the "Best 1st Year Game" award at the end of the year. This project gave me insight into teamwork, game design, polishing, and publishing.',
+			'I developed a particle-based fluid simulation engine in C++ with OpenGL, designed to measure the accuracy of emergent buoyant behaviours. Inspired by SPH techniques but built from scratch, the system handles real-time collision detection, spring-like forces, and dynamic fluid-object interaction. A separate Archimedes-based reference simulation was integrated for benchmarking. The engine supports configurable particle resolution (radius and quantity), user input, data export in CSV, and visualisation via a lightweight 2D renderer. I implemented unit testing with Google Test, automated data analysis in R, and applied dampened collision resolution and basic optimisation to support high particle counts. This project strengthened my skills in low-level graphics, simulation architecture, and system debugging.',
 		shortDescription:
-			'Developed an award-winning first-year game.',
+			'Created a particle-based fluid simulation across two modules focusing on optimisation, quality assurance, profiling, and debugging.',
 		links: [
-			{ to: 'https://store.steampowered.com/app/2655020/Split_Polarity_The_Science_Puzzle_Arcade_Game/', label: 'Steam' },
+			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
 		],
-		logo: Assets.SplitPolarity,
-		name: 'Split Polarity',
+		logo: Assets.FluidSim,
+		name: 'Fluid Particle Simulation',
 		period: {
-			from: new Date(2022,10), to: new Date(2023,11)
+			from: new Date(2024,9)
 		},
-		skills: getSkills("CSharp","unity"),
-		type: 'Game',
+		skills: getSkills('C++', 'opengl',"R","py"),
+		type: 'Graphics Simulation',
 		screenshots: [
 			{
-				label: "Split Polarity Versus Mode",
-				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_082a639891aab8b1b192eae0e3719c615064d119.600x338.jpg?t=1704801089",
+				label: "Running Simulation With Test and Refrence Particle",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Fluid-Simulation-OpenGL/refs/heads/FluidSim/Photos/Simulation/Simulation%20Screenshot%20Blue.png"
 			},
 			{
-				label: "Split Polarity Single Mode",
-				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_ae2219fdf1d76bdbfc13d95f5e2d3f78b6f59850.600x338.jpg?t=1704801089"
+				label: "Recalculate Particle Collision Function",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Fluid-Simulation-OpenGL/refs/heads/FluidSim/Photos/Code%20Snipet/RecalculateParticle%20Collision.png"
 			},
 			{
-				label: "Split Polarity Title Screen",
-				src: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2655020/extras/Screenshot_5_small.png?t=1704801089"
-			},
-		]
-	},
-	{
-		slug: 'Agriculture-Robotics',
-		color: 'yellow',
-		description:
-			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
-		shortDescription:
-			'Devloped the navigation program to help create "Daffy" the daffodil picking robot.',
-		links: [
-			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
-		
-		],
-		logo: Assets.Daffy,
-		name: 'Agriculture Robotics',
-		period: {
-			from: new Date(2022,9,1), to: new Date(2022,9,3)
-		},
-		skills: getSkills("py"),
-		type: 'Robotics',
-		screenshots: [
-			{
-				label: "Hackathon Event Introductions and Importance",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9457.jpg?itok=LO_1aWwn"
+				label: "Position Update and Distance Check",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Fluid-Simulation-OpenGL/refs/heads/FluidSim/Photos/Code%20Snipet/ParticleDistanceCheckandPosUpdate.png"
 			},
 			{
-				label: "Hackathon Event attendees",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0502.jpg?itok=lA2yx6Yw"
+				label: "Water Surface Level",
+				src: "https://raw.githubusercontent.com/Louis-Palmer/Fluid-Simulation-OpenGL/refs/heads/FluidSim/Photos/Code%20Snipet/FindSufraceLevel.png"
 			},
-			{
-				label: "Robot Navigation Team",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0634.jpg?itok=jJHvKKcT"
-			},
-			{
-				label: "Daffy the Robot",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0743.jpg?itok=LY1EX-Mg"
-			},
-			{
-				label: "George Eustice - Former Secretary of State for Environment, Food and Rural Affairs",
-				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9662.jpg?itok=0p58irbr"
-			},
-		]
-		
-	},
-	{
-		slug: 'Machine-Learning',
-		color: 'grey',
-		description:
-			"I created reinforcement learning agents in Unity to explore ideal strategies for the Iterated Prisoner's Dilemma. This project involved designing the environment, configuring a rewards system, setting up the AI agents, Training the AI, and experimenting with the AI agents playing against themselves and the Tit-for-Tat Strategy. This project challenged my problem-solving and logical thinking skills but was very valuable. I documented and analysed the results to increase my understanding of AI and potential errors.",
-		shortDescription:
-			"Implemented Reinforced Machine Learning Agents to solve Iterated Prisoner's Dilemma.",
-		links: [
-			{ to: 'https://github.com/Louis-Palmer/Uni-Comp213-MachineLearning', label: 'Github' },
-		],
-		logo: Assets.MLIPD,
-		name: 'Artificial Intelligence and Machine Learning in the Iterated Prisoners Dilemma',
-		period: {
-			from: new Date(2023,10), to: new Date(2024,2)
-		},
-		skills: getSkills('CSharp',"py","unity"),
-		type: 'Machine Learning',
-		screenshots:[
-			{
-				label: "Data Experiment One",
-				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentOne.png"
-			},
-			{
-				label: "Data Experiment Two",
-				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
-			},
-			{
-				label: "Data Experiment Three",
-				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
-			},
-			// {
-			// 	label: "Reward Distribution",
-			// 	src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/PrisonerDilemmaRewards.png"
-			// },
+			
 			
 		]
 	},
@@ -214,23 +141,119 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Fluid-Simulation',
-		color: '#0808f1',
+		slug: 'Split-Polarity',
+		color: '#5e95e3',
 		description:
-			'For my dissertation and graphics module, I focused on particle-based fluid simulation. I developed a simplified fluid simulation in the graphics module, which required significant self-directed learning. My dissertation expands on this by implementing Smoothed Particle Hydrodynamics (SPH) to simulate buoyancy and analyse its accuracy with varying particle resolutions. I conducted a statistical analysis using two-way ANOVA and Tukey testing, using tools like G-power and R for data analysis. This project has improved my knowledge of Code quality assurance and optimisation.',
+			'As a team, I created a game inspired by a toy called the Perplexus, which featured two game modes: two-player versus mode and single-player mode. The game involves strategy and luck by adding power-ups. The game supports controllers, mouse, and keyboards. This project was a significant milestone in my first year, as it was published on Steam by a student-led publishing company that fully funded the release to be their introduction game. The game won the "Best 1st Year Game" award at the end of the year. This project gave me insight into teamwork, game design, polishing, and publishing.',
 		shortDescription:
-			'Created a particle-based fluid simulation across two modules focusing on optimisation, quality assurance, profiling, and debugging.',
+			'Developed an award-winning first-year game.',
 		links: [
-			{ to: 'https://github.com/Louis-Palmer/Fluid-Simulation-OpenGL', label: 'Github' },
+			{ to: 'https://store.steampowered.com/app/2655020/Split_Polarity_The_Science_Puzzle_Arcade_Game/', label: 'Steam' },
 		],
-		logo: Assets.FluidSim,
-		name: 'Fluid Particle Simulation',
+		logo: Assets.SplitPolarity,
+		name: 'Split Polarity',
 		period: {
-			from: new Date(2024,9)
+			from: new Date(2022,10), to: new Date(2023,11)
 		},
-		skills: getSkills('C++', 'opengl',"R","py"),
-		type: 'Graphics Simulation',
+		skills: getSkills("CSharp","unity"),
+		type: 'Game',
+		screenshots: [
+			{
+				label: "Split Polarity Versus Mode",
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_082a639891aab8b1b192eae0e3719c615064d119.600x338.jpg?t=1704801089",
+			},
+			{
+				label: "Split Polarity Single Mode",
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2655020/ss_ae2219fdf1d76bdbfc13d95f5e2d3f78b6f59850.600x338.jpg?t=1704801089"
+			},
+			{
+				label: "Split Polarity Title Screen",
+				src: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2655020/extras/Screenshot_5_small.png?t=1704801089"
+			},
+		]
 	},
+	{
+		slug: 'Machine-Learning',
+		color: 'grey',
+		description:
+			"I created reinforcement learning agents in Unity to explore ideal strategies for the Iterated Prisoner's Dilemma. This project involved designing the environment, configuring a rewards system, setting up the AI agents, Training the AI, and experimenting with the AI agents playing against themselves and the Tit-for-Tat Strategy. This project challenged my problem-solving and logical thinking skills but was very valuable. I documented and analysed the results to increase my understanding of AI and potential errors.",
+		shortDescription:
+			"Implemented Reinforced Machine Learning Agents to solve Iterated Prisoner's Dilemma.",
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/Uni-Comp213-MachineLearning', label: 'Github' },
+		],
+		logo: Assets.MLIPD,
+		name: 'Artificial Intelligence and Machine Learning in the Iterated Prisoners Dilemma',
+		period: {
+			from: new Date(2023,10), to: new Date(2024,2)
+		},
+		skills: getSkills('CSharp',"py","unity"),
+		type: 'Machine Learning',
+		screenshots:[
+			{
+				label: "Data Experiment One",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentOne.png"
+			},
+			{
+				label: "Data Experiment Two",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
+			},
+			{
+				label: "Data Experiment Three",
+				src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/ExperimentTwo.png"
+			},
+			// {
+			// 	label: "Reward Distribution",
+			// 	src: "https://media.githubusercontent.com/media/Louis-Palmer/Uni-Comp213-MachineLearning/main/WORD/Images/PrisonerDilemmaRewards.png"
+			// },
+			
+		]
+	},
+	{
+		slug: 'Agriculture-Robotics',
+		color: 'yellow',
+		description:
+			'I participated in a hackathon-like event where 22 students, including myself, were tasked with programming a robot capable of identifying and picking daffodils. The project was divided into three teams: Machine Vision, Arms Control, and Navigation. Cornwall’s daffodil industry generates over £20 million annually, and George Eustice, the former Secretary of State for Environment, Food, and Rural Affairs, highlighted the project’s potential impact, even if unfinished. I joined with the Navigation team, using Python to help the robot drive efficiently, ensuring it stopped and started correctly without damaging any flowers.',
+		shortDescription:
+			'Devloped the navigation program to help create "Daffy" the daffodil picking robot.',
+		links: [
+			{ to: 'https://www.falmouth.ac.uk/launchpad/news/hackers-robots-and-real-world-solutions', label: 'Event Link' },
+		
+		],
+		logo: Assets.Daffy,
+		name: 'Agriculture Robotics',
+		period: {
+			from: new Date(2022,9,1), to: new Date(2022,9,3)
+		},
+		skills: getSkills("py"),
+		type: 'Robotics',
+		screenshots: [
+			{
+				label: "Hackathon Event Introductions and Importance",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9457.jpg?itok=LO_1aWwn"
+			},
+			{
+				label: "Hackathon Event attendees",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0502.jpg?itok=lA2yx6Yw"
+			},
+			{
+				label: "Robot Navigation Team",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0634.jpg?itok=jJHvKKcT"
+			},
+			{
+				label: "Daffy the Robot",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-0743.jpg?itok=LY1EX-Mg"
+			},
+			{
+				label: "George Eustice - Former Secretary of State for Environment, Food and Rural Affairs",
+				src: "https://www.falmouth.ac.uk/sites/default/files/styles/max_2600x2600/public/media/images/Hackathon_2022%C2%A9JennaHinton-9662.jpg?itok=0p58irbr"
+			},
+		]
+		
+	},
+	
+	
+	
 	// {
 	// 	slug: 'Slot_Machine',
 	// 	color: 'red',
