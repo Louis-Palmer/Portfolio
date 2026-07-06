@@ -89,6 +89,7 @@ const Assets = {
 	Unreal: asset("UnrealLogo.png"),
 	Daffy: asset("Daffy.png"),
 	SlotMachine: asset("SlotMachineIcon.png"),
+	BnQ: asset("B&QCropped.png"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png"),

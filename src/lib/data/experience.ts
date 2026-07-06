@@ -8,6 +8,24 @@ const title = 'Experience';
 
 const items: Array<Experience> = [
 	{
+		slug: 'Customer Advisor',
+		company: 'B&Q',
+		description: 'Working as a Customer Advisor at B&Q has strengthened my ability to solve problems in fast-paced environments while maintaining accuracy and attention to detail. I follow precise, repeatable processes when mixing custom paints, operate specialist equipment safely, and manage multiple competing priorities without compromising quality. The role has also developed my communication and analytical skills, as I regularly assess customers project requirements, recommend tailored solutions, and resolve complex issues. Being trusted with additional responsibilities and consistently receiving positive customer feedback reflects my reliability, adaptability, and commitment to delivering high-quality results.',
+		contract: ContractType.Internship,
+		type: 'Retail',
+		location: 'Leicestershire',
+		period: { from: new Date(2025, 8,1), },
+		skills: getSkills("Customer Service"),
+		name: 'Customer Advisor',
+		color: 'orange',
+		links: [{to: "https://www.diy.com/", label: "Visit Site", newTab:true}],
+		logo: Assets.BnQ,
+		shortDescription: 'Worked to solve complex customer issues',
+		screenshots:[
+			
+		]
+	},
+	{
 		slug: 'Programming-Intern',
 		company: 'Perchang Games',
 		description: 'During my internship with Perchang, I gained invaluable experience working in a professional game development environment. While adhering to an NDA, I contributed by creating new mechanics for their game Perchang and developing tools and libraries to streamline their programming workflow, including gizmos, object hierarchy search tools, and reusable functions. This internship taught me professional standards, source control,  team meetings and effective communication across multiple disciplines. This internship gave me a solid foundation for the software development process in a professional environment.',
