@@ -251,6 +251,47 @@ const items: Array<Project> = [
 		]
 		
 	},
+	{
+		slug: 'AI Email Assistant',
+		color: 'yellow',
+		description:
+			'This was a personal project I built to learn how APIs work and how different platforms can be connected together. I used Python to integrate the Gmail API with the OpenAI API, allowing the program to read emails, process their content and reply to the emails. The focus wasnt on creating a finished or production-ready tool, but on learning and  working with APIs, authentication and passing data between separate services. It gave me a much better understanding of how APIs can be used to connect existing platforms and build automated workflows.',
+		shortDescription:
+			'Developed an AI Email Assistant that would read, sort and Reply to emails using Gmail and OpenAI',
+		links: [
+			{ to: 'https://github.com/Louis-Palmer/AutoReply_Email_Assistant', label: 'Github' },
+		
+		],
+		logo: Assets.email,
+		name: 'AI Email Assistant',
+		period: {
+			from: new Date(2025,6,1), to: new Date(2025,7,3)
+		},
+		skills: getSkills("py"),
+		type: 'API',
+		
+	},
+	{
+		slug: 'Tiling and Flooring Calculator',
+		color: 'black',
+		description:
+			'TileOut is a prototype tiling calculator I made based on something that could actually be useful at my current job. It takes the room and tile measurements and works out how many tiles and packs are needed, while also looking for things like cuts, reusable offcuts and spare tiles. I also used this project to experiment with AI-assisted programming and see how far the tools have come. I let Claude handle most of the coding while I focused more on the idea, what features I wanted, testing what it produced and making smaller changes along the way. It was mainly a way for me to explore where AI-assisted development is heading and what that could mean for programming roles in the future.',
+		shortDescription:
+			'Prototype Tiling and flooring calculator',
+		links: [
+			{ to: 'https://tile-out.vercel.app/', label: 'WebApp' },
+			{ to: 'https://github.com/Louis-Palmer/TileOut', label: 'Github' },
+		
+		],
+		logo: Assets.Tileout,
+		name: 'Tiling and Flooring Calculator',
+		period: {
+			from: new Date(2026,9,1), to: new Date(2026,10,3)
+		},
+		skills: getSkills(""),
+		type: 'WebAPP',
+		
+	},
 	
 	
 	

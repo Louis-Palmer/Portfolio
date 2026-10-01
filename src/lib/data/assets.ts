@@ -90,6 +90,8 @@ const Assets = {
 	Daffy: asset("Daffy.png"),
 	SlotMachine: asset("SlotMachineIcon.png"),
 	BnQ: asset("B&QCropped.png"),
+	email: asset("emailicon.png"),
+	Tileout: asset("Tileout.png"),
 
 	//Images
 	FluidSim: asset("FluidSimScreenshot.png"),
